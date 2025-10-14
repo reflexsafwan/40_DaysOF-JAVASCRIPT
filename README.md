@@ -1,0 +1,2 @@
+learn about defer vs async . Today i learn about how async and defer work in javascript. async create dom tree and download script and execute at a time parallelly. but problem is when the dom is larger than script then script is executed first and then show error in the console.the problem is solved by defer..it create dom and downlaod parrally but don't execution parallelly .it executes when then dom tree created and download all then executes defer.
+so we should use defer when we manipulate the dom tree and use async when u cant" manipulate the dom tree .
