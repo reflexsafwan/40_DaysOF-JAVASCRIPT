@@ -10,11 +10,14 @@ switch (day) {
 }
 // ans and explanation:
 /**
- * ans is it's a normal day.beacuse switch case is case sensitive. here Monday is not equal to monday.
+ * ans is it's a normal day.beacuse switch case is case sensitive. 
+ * here Monday is not equal to monday.
  */
 
 // 2. Build an ATM Cash Withdrawal System
-// Rajan goes to the Axis bank ATM. He enters an amount to withdraw. The ATM only allows multiples of 100. Print “Withdrawal successful” if valid, otherwise print “Invalid amount”
+// Rajan goes to the Axis bank ATM. He enters an amount to withdraw. 
+// The ATM only allows multiples of 100. Print “Withdrawal successful” if valid, 
+// otherwise print “Invalid amount”
 
 const amount = 2500;
 if (amount % 100 === 0) {
@@ -24,7 +27,8 @@ if (amount % 100 === 0) {
 }
 
 // 3. Build a Calculator with switch-case
-// Write a simple calculator that takes an operator (+, -, , /, %) as input, and performs the operation on two numbers. Print the output on the console.
+// Write a simple calculator that takes an operator (+, -, , /, %) as input,
+//  and performs the operation on two numbers. Print the output on the console.
 const num1 = 5;
 const num2 = 7;
 const oprtr = "-";
@@ -67,7 +71,10 @@ if (age < 18) {
 }
 
 // 5. Horoscope Sign Checker
-// Write a program that prints the zodiac sign(Aries, Taurus, Gemini, etc.) based on a person’s birth month. Make it month bases, not date based. Like March and April borns are Aries, Aplil and May born are Taurus, and so on. Do not use if-else.
+// Write a program that prints the zodiac sign(Aries, Taurus, Gemini, etc.) 
+// based on a person’s birth month. Make it month bases, not date based. 
+// Like March and April borns are Aries, Aplil and May born are Taurus, and so on.
+//  Do not use if-else.
 const birthMonth = "March";
 switch (birthMonth) {
   case "March" || "April":
@@ -89,7 +96,8 @@ switch (birthMonth) {
 // All sides equal is called, Equilateral Triangle.
 // Two sides equal is called, Isosceles Triangle.
 // All sides different is called, Scalene Triangle.
-// Take the sides of a triangle as input and write a program to determine the triangle type. Change the inputs everytime manually to see if the output changes correctly.
+// Take the sides of a triangle as input and write a program to determine the triangle type.
+//  Change the inputs everytime manually to see if the output changes correctly.
 
 const a = 2;
 const b = 25;
